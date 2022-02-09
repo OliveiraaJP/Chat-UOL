@@ -1,0 +1,47 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 6px 0px #0000000D;
+    height: 13%;
+    width: 100vw;
+    background-color: lightgray;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header img{
+    height: 50%;
+    padding: 0 20px;
+}
+
+main{
+    overflow-y: scroll;
+}
+
+
+footer{
+    position: relative;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px 4px 6px 0px #0000000D;
+    height: 13%;
+    width: 100vw;
+    background-color: lightgray;
+}
+
+footer textarea{
+    font-size: 20px;
+    height: 65%;
+    border: none;
+}
+
+footer img{
+    position: absolute;
+    top: 27px;
+    right: 15px;
+}
