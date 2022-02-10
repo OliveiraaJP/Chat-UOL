@@ -5,7 +5,7 @@ header{
     box-shadow: 0px 4px 6px 0px #0000000D;
     height: 13%;
     width: 100vw;
-    background-color: lightgray;
+    background-color: rgb(235, 110, 110);
 
     display: flex;
     justify-content: space-between;
@@ -19,9 +19,37 @@ header img{
 }
 
 main{
+    margin: 0 8px;
+    margin-top: 25%;
+    margin-bottom: 25%;
     overflow-y: scroll;
 }
 
+main article{
+    padding: 12px 0;
+    line-height: 1.5em;
+}
+
+main article.status{
+    background-color: #DCDCDC;
+}
+
+main article.private{
+    background-color: #FFDEDE;
+}
+main time{
+    color: #AAAAAA;
+    margin-right: 3px;
+}
+
+main strong{
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+main span{
+    /* font-size: 14px; */
+}
 
 footer{
     position: relative;
